@@ -1,6 +1,5 @@
 package com.example.triggerStreamTest.mapper;
 
-import com.example.triggerStreamTest.model.SourceEvent;
 
 public class EventMapper {
     public static String findEventCategory(String event) {
@@ -10,5 +9,5 @@ public class EventMapper {
             default -> null;
         };
     }
-}
 
+}
